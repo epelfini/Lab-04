@@ -1,14 +1,8 @@
 @charset "UTF-8";
 /* CSS Document */
-
-p {
-	color: white;
-	float:right;
 	
-}
-
 .if {
-	width: 800px;
+	width: 900px;
 	height: auto;
 	background-color: black;
 }
@@ -17,13 +11,34 @@ p {
 	width: 400px;
 }
 
+.if p {
+	color: white;
+	float:right;
+	margin-top: 290px;
+	padding-right: 30px;
+
+}
+
 h1 {
 	color: red;
-	
+	margin-bottom: -15px;
 }
 
 h2 {
-	
 	color: grey;
+	text-align: center;
 }
 
+.text img {
+	float: right;
+	width: 200px;
+	height: auto;
+	margin-top: -33px;
+	margin-right: 40px;
+}
+
+.list p {
+	font-weight: bold;
+	margin-bottom: -10px;
+	
+}
