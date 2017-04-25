@@ -3,25 +3,39 @@
 	
 .if {
 	width: 900px;
-	height: auto;
+	height: 610px;
 	background-color: black;
 }
 
 .if img {
-	width: 400px;
+	width: 450px;
+	height: auto;
+	margin-top: 30px;
+	margin-right: -500px;
+	margin-bottom: -800px;
+	float: left;
 }
 
 .if p {
 	color: white;
-	float:right;
-	margin-top: 290px;
-	padding-right: 30px;
+	float:left;
+	padding-left: 350px;
+	padding-top: 350px;
+	width: 200px;
 
 }
 
 h1 {
 	color: red;
 	margin-bottom: -15px;
+	
+
+}
+
+hr {
+	width: 800px;
+	float: left;
+	/*changed the width of the line to aling with the copy*/
 }
 
 h2 {
@@ -35,6 +49,11 @@ h2 {
 	height: auto;
 	margin-top: -33px;
 	margin-right: 40px;
+	/*gave a negative margin top to align with horizontal rule*/
+}
+
+.text p {
+	width: 350px;
 }
 
 .list p {
